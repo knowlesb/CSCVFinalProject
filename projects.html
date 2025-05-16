@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="View my portfolio of web development and software engineering projects">
+    <title>Projects | Brian Knowles - Front-End Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav role="navigation" aria-label="Main navigation">
+            <button class="menu-toggle" aria-expanded="false" aria-controls="main-menu" aria-label="Toggle navigation menu">
+                <span class="hamburger-icon"></span>
+            </button>
+            <ul id="main-menu" class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html" aria-current="page">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="projects-section">
+            <h1>My Projects</h1>
+            <div class="projects-grid">
+                <figure class="project-item">
+                    <img src="img/IMG_213.jpeg" alt="Screenshot of Project A - E-commerce Dashboard" width="400" height="300">
+                    <figcaption>
+                        <h2>E-commerce Dashboard</h2>
+                        <p>A responsive admin dashboard built with React and Material-UI, featuring real-time sales analytics and inventory management.</p>
+                    </figcaption>
+                </figure>
+
+                <figure class="project-item">
+                    <img src="img/IMG_466.jpeg" alt="Screenshot of Project B - Weather App" width="400" height="300">
+                    <figcaption>
+                        <h2>Weather Application</h2>
+                        <p>A modern weather application using OpenWeather API, built with Node.js and Express, providing detailed weather forecasts and alerts.</p>
+                    </figcaption>
+                </figure>
+
+                <figure class="project-item">
+                    <img src="img/IMG_689.jpeg" alt="Screenshot of Project C - Task Management System" width="400" height="300">
+                    <figcaption>
+                        <h2>Task Management System</h2>
+                        <p>A collaborative task management platform featuring real-time updates, user authentication, and team workspace organization.</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Brian Knowles. All rights reserved.</p>
+            <nav class="footer-nav" aria-label="Footer navigation">
+                <ul>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html> 

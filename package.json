@@ -1,0 +1,42 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "Personal portfolio website with contact form functionality and database integration",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "cross-env NODE_ENV=development nodemon server/server.js",
+    "prod": "cross-env NODE_ENV=production node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate": "node server/database/migrations.js",
+    "seed": "node server/database/seeds.js"
+  },
+  "keywords": [
+    "portfolio",
+    "web development",
+    "contact form",
+    "database"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.7",
+    "pg": "^8.11.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.1",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^3.0.2",
+    "sequelize-cli": "^6.6.2"
+  }
+} 

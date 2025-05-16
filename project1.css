@@ -1,0 +1,38 @@
+body {
+    background-color: white;
+    font-family: Georgia, Garamond, serif;
+    color: #333;
+    font-size: 14pt;
+}
+
+h1 {
+    text-align: center;
+    font-size: 28pt;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+h2 {
+    font-size: 20pt;
+    color: #2c3e50;
+    text-align: left;
+    text-decoration: underline;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding-top: 20px;
+}

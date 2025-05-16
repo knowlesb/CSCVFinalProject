@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn more about my background, education, experience, and technical skills">
+    <title>About Me | Your Name - Front-End Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav role="navigation" aria-label="Main navigation">
+            <button class="menu-toggle" aria-expanded="false" aria-controls="main-menu" aria-label="Toggle navigation menu">
+                <span class="hamburger-icon"></span>
+            </button>
+            <ul id="main-menu" class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" aria-current="page">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article class="about-content">
+            <h1>About Brian Knowles</h1>
+            
+            <figure class="profile-image">
+                <img src="IMG_5203.jpg" alt="Professional headshot of Your Name" width="300" height="300">
+            </figure>
+
+            <section class="about-section" id="education">
+                <h2 class="section-toggle" aria-expanded="true" aria-controls="education-content">
+                    Education
+                    <span class="toggle-icon" aria-hidden="true">−</span>
+                </h2>
+                <div id="education-content" class="section-content">
+                    <p>Bachelor of Science in Computer Science</p>
+                    <p>The University of Arizona</p>
+                    <p>Expected Graduation: May 2025</p>
+                    <p>Relevant Coursework: Web Development, Data Structures, Algorithms, Database Systems</p>
+                </div>
+            </section>
+
+            <section class="about-section" id="experience">
+                <h2 class="section-toggle" aria-expanded="true" aria-controls="experience-content">
+                    Experience
+                    <span class="toggle-icon" aria-hidden="true">−</span>
+                </h2>
+                <div id="experience-content" class="section-content">
+                    <div class="job-entry">
+                        <h3>Systems Backup Specialist</h3>
+                        <p class="job-meta">Walmart | 2023–current</p>
+                        <ul>
+                            <li>Managed and monitored 200+ enterprise backup systems using Commvault, ensuring 99.9% backup success rate across critical business applications</li>
+                            <li>Automated backup verification processes using PowerShell, reducing daily review time by 45% while maintaining data integrity standards</li>
+                            <li>Implemented disaster recovery procedures for 50+ backup jobs weekly, achieving zero data loss and meeting strict RTO/RPO requirements</li>
+                            <li>Collaborated with cross-functional teams to optimize backup windows, resulting in 30% reduction in backup completion times</li>
+                        </ul>
+                    </div>
+
+                    <div class="job-entry">
+                        <h3>Configuration Control Student Worker</h3>
+                        <p class="job-meta">University of Arizona | 2024–current</p>
+                        <ul>
+                            <li>Developed and maintained configuration management documentation for 100+ university systems using ServiceNow and Git</li>
+                            <li>Streamlined change control processes through workflow automation, reducing approval times by 40% and improving tracking accuracy</li>
+                            <li>Assisted in implementing version control best practices across 5 development teams, resulting in 60% fewer deployment conflicts</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about-section" id="skills">
+                <h2 class="section-toggle" aria-expanded="true" aria-controls="skills-content">
+                    Technical Skills
+                    <span class="toggle-icon" aria-hidden="true">−</span>
+                </h2>
+                <div id="skills-content" class="section-content">
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h3>Languages</h3>
+                            <ul class="skills-list">
+                                <li class="skill-badge">HTML5</li>
+                                <li class="skill-badge">CSS3</li>
+                                <li class="skill-badge">JavaScript</li>
+                                <li class="skill-badge">Python</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Frameworks & Libraries</h3>
+                            <ul class="skills-list">
+                                <li class="skill-badge">React</li>
+                                <li class="skill-badge">Node.js</li>
+                                <li class="skill-badge">Express</li>
+                                <li class="skill-badge">Bootstrap</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Tools & Technologies</h3>
+                            <ul class="skills-list">
+                                <li class="skill-badge">Git</li>
+                                <li class="skill-badge">VS Code</li>
+                                <li class="skill-badge">Figma</li>
+                                <li class="skill-badge">AWS</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Your Name. All rights reserved.</p>
+            <nav class="footer-nav" aria-label="Footer navigation">
+                <ul>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html> 
